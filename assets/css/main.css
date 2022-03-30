@@ -50,7 +50,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 body {
 	-webkit-text-size-adjust: none;
 }
@@ -314,10 +313,14 @@ input, select, textarea {
 
 		.row > * {
 			box-sizing: border-box;
+			
 		}
 
 		.row.gtr-uniform > * > :last-child {
 			margin-bottom: 0;
+			color: black;
+			
+
 		}
 
 		.row.aln-left {
@@ -1966,6 +1969,8 @@ input, select, textarea {
 				display: block;
 				height: 2px;
 				margin: 0.75em auto 0 auto;
+				margin-top: 2rem;
+				
 				position: relative;
 				width: 4em;
 			}
@@ -1997,7 +2002,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(165, 151, 151, 0.15);
+		background: rgba(107, 164, 224, 0.15);
 		border-radius: 0;
 		border: none;
 		color: inherit;
@@ -2118,7 +2123,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background: #313a3d;
+			background: #0f1314;
 			color: #ffffff;
 			content: '\f00c';
 		}
@@ -2133,7 +2138,7 @@ input, select, textarea {
 	}
 
 	::-webkit-input-placeholder {
-		color: #a8b0b3 !important;
+		color: #191f20 !important;
 		opacity: 1.0;
 	}
 
@@ -2396,7 +2401,7 @@ input, select, textarea {
 			-ms-justify-content: center;
 			justify-content: center;
 			width: 100%;
-
+             
 			margin-left: 0;
 		}
 
@@ -2742,7 +2747,7 @@ input, select, textarea {
 
 		.main .container {
 			padding: 5em 2.5em 8em 2.5em ;
-			background: rgba(220, 225, 235, 0.95);
+			background: rgba(219, 227, 245, 0.95);		
 			box-shadow: inset 0 1px 0 0 #dddddd;
 		}
 
@@ -2766,7 +2771,7 @@ input, select, textarea {
 			-webkit-transition: background-color 0.2s ease-in-out;
 			-ms-transition: background-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out;
-			background-color: rgba(144, 144, 144, 0.075);
+			background-color: rgba(248, 246, 246, 0.075);
 			background-image: url("images/arrow.svg");
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -2872,8 +2877,9 @@ input, select, textarea {
 
 		#footer .container {
 			padding: 5em 2.5em 3em 2.5em ;
-			background: rgba(220, 225, 235, 0.95);
+			background: rgba(219, 227, 245, 0.95);
 			box-shadow: inset 0 1px 0 0 #a59f9f;
+			
 		}
 
 		#footer footer {
