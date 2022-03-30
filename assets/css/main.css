@@ -205,7 +205,7 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #dddddd;
+		border-bottom: solid 1px #1e1d6e;
 		margin: 2em 0;
 	}
 
@@ -2813,6 +2813,8 @@ input, select, textarea {
 
 			#header header h1, #header header h2, #header header h3, #header header h4, #header header h5, #header header h6, #header header strong, #header header b {
 				color: #ffffff;
+				font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                
 			}
 
 			#header header a {
@@ -2820,17 +2822,20 @@ input, select, textarea {
 			}
 
 				#header header a:hover {
-					color: #ffffff !important;
+					color: #746c6c !important;
 				}
 
 			#header header h1 {
-				font-size: 3em;
+				font-size: 5em;
 				line-height: 1.25em;
-				margin: 0;
+				margin-top: 3em;
+				/* margin: 0; */
 			}
 
-				#header header h1:after {
-					margin-top: 0.5em;
+				#header header h1:hover {
+					margin-top: 3em;
+					color: #ffffff !important;
+					cursor:pointer;
 				}
 
 			#header header p {
@@ -2882,6 +2887,11 @@ input, select, textarea {
 
 			#footer footer h1, #footer footer h2, #footer footer h3, #footer footer h4, #footer footer h5, #footer footer h6, #footer footer strong, #footer footer b {
 				color: #ffffff;
+				font-size: 1.5em;
+			}
+
+			#footer footer h3:hover {
+				color: #ffffff !important;
 			}
 
 			#footer footer a {
